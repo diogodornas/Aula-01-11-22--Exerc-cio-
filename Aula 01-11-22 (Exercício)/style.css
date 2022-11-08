@@ -1,0 +1,73 @@
+body  {
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+header  {
+    background-color: rgb(219, 102, 24);
+    padding: 1px;
+    font-size: 20px;
+    font-family: 'Mulish', sans-serif;
+    text-align: center;
+}
+
+footer  {
+    background-color: rgb(219, 102, 24);
+    padding: 1px;
+    font-size: 15px;
+    font-family: 'Mulish', sans-serif;
+    text-align: center;
+    color: white; 
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#fullstack  {
+    text-align: center;
+}
+
+.page  {
+    padding: 35px;
+    margin: 15px;
+}
+
+.toppage  {
+      display: flex;
+      justify-content: space-evenly;
+      text-align: center;
+    }
+
+ul ol a {
+    text-decoration: none;
+    color: white;
+    justify-content: center;
+}
+
+ul ol a:hover {
+    font-weight: bold;
+    color: black;
+}
+
+.starter, .starter3, .growdev {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.starter2, .growdev2, .growdev4 {
+    display: block;
+    margin-left: auto;
+    margin-right: 0px;
+}
+
+.style1, .style2, .style3 {
+    background-color: rgb(213, 214, 214);
+    padding: 30px;
+}
+
+.logo {
+    background-image: url(./images/logogrow.png);
+    background-repeat: no-repeat;
+    background-position: right top;  
+}
+
